@@ -1,25 +1,27 @@
 {
-  "name": "pbl-2020-pbl-group4",
+  "name": "video_chat_app_tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UTokyo-PBL/pbl-2020-pbl-group4.git"
+    "url": "git+https://github.com/GuRikO1/video_chat_app_tutorial.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UTokyo-PBL/pbl-2020-pbl-group4/issues"
+    "url": "https://github.com/GuRikO1/video_chat_app_tutorial/issues"
   },
-  "homepage": "https://github.com/UTokyo-PBL/pbl-2020-pbl-group4#readme",
+  "homepage": "https://github.com/GuRikO1/video_chat_app_tutorial#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0",
+    "socket.io": "^3.0.1",
     "uuid": "^8.3.1"
   },
   "devDependencies": {
